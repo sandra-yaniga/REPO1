@@ -1,0 +1,3189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ScanSNTitleLbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ScanSNTitleLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 18</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ScanSNTitleLbl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="ScanSNTitleLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 13</value>
+  </data>
+  <data name="ScanSNTitleLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ScanSNTitleLbl.Text" xml:space="preserve">
+    <value>Scan Serial Number</value>
+  </data>
+  <data name="&gt;&gt;ScanSNTitleLbl.Name" xml:space="preserve">
+    <value>ScanSNTitleLbl</value>
+  </data>
+  <data name="&gt;&gt;ScanSNTitleLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ScanSNTitleLbl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ScanSNTitleLbl.ZOrder" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="RwkSNScanBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 33</value>
+  </data>
+  <data name="RwkSNScanBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="RwkSNScanBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 20</value>
+  </data>
+  <data name="RwkSNScanBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;RwkSNScanBox.Name" xml:space="preserve">
+    <value>RwkSNScanBox</value>
+  </data>
+  <data name="&gt;&gt;RwkSNScanBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RwkSNScanBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;RwkSNScanBox.ZOrder" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="SubassyPNTitleLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 60</value>
+  </data>
+  <data name="SubassyPNTitleLbl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="SubassyPNTitleLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 30</value>
+  </data>
+  <data name="SubassyPNTitleLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="SubassyPNTitleLbl.Text" xml:space="preserve">
+    <value>Subassembly PN</value>
+  </data>
+  <data name="&gt;&gt;SubassyPNTitleLbl.Name" xml:space="preserve">
+    <value>SubassyPNTitleLbl</value>
+  </data>
+  <data name="&gt;&gt;SubassyPNTitleLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SubassyPNTitleLbl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SubassyPNTitleLbl.ZOrder" xml:space="preserve">
+    <value>99</value>
+  </data>
+  <data name="SubassyPNLbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SubassyPNLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 88</value>
+  </data>
+  <data name="SubassyPNLbl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="SubassyPNLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 13</value>
+  </data>
+  <data name="SubassyPNLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="SubassyPNLbl.Text" xml:space="preserve">
+    <value>(Subassy PN)</value>
+  </data>
+  <data name="SubassyPNLbl.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;SubassyPNLbl.Name" xml:space="preserve">
+    <value>SubassyPNLbl</value>
+  </data>
+  <data name="&gt;&gt;SubassyPNLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SubassyPNLbl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SubassyPNLbl.ZOrder" xml:space="preserve">
+    <value>98</value>
+  </data>
+  <data name="ComponentPNTitleLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 60</value>
+  </data>
+  <data name="ComponentPNTitleLbl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="ComponentPNTitleLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 30</value>
+  </data>
+  <data name="ComponentPNTitleLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="ComponentPNTitleLbl.Text" xml:space="preserve">
+    <value>Component PN</value>
+  </data>
+  <data name="&gt;&gt;ComponentPNTitleLbl.Name" xml:space="preserve">
+    <value>ComponentPNTitleLbl</value>
+  </data>
+  <data name="&gt;&gt;ComponentPNTitleLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ComponentPNTitleLbl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ComponentPNTitleLbl.ZOrder" xml:space="preserve">
+    <value>97</value>
+  </data>
+  <data name="CompPNLbl1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNLbl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 95</value>
+  </data>
+  <data name="CompPNLbl1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="CompPNLbl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="CompPNLbl1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="CompPNLbl1.Text" xml:space="preserve">
+    <value>(PN1)</value>
+  </data>
+  <data name="CompPNLbl1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl1.Name" xml:space="preserve">
+    <value>CompPNLbl1</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl1.ZOrder" xml:space="preserve">
+    <value>96</value>
+  </data>
+  <data name="CompPNLbl2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNLbl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 118</value>
+  </data>
+  <data name="CompPNLbl2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="CompPNLbl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="CompPNLbl2.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="CompPNLbl2.Text" xml:space="preserve">
+    <value>(PN2)</value>
+  </data>
+  <data name="CompPNLbl2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl2.Name" xml:space="preserve">
+    <value>CompPNLbl2</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl2.ZOrder" xml:space="preserve">
+    <value>95</value>
+  </data>
+  <data name="CompPNLbl3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNLbl3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 143</value>
+  </data>
+  <data name="CompPNLbl3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="CompPNLbl3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="CompPNLbl3.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="CompPNLbl3.Text" xml:space="preserve">
+    <value>(PN3)</value>
+  </data>
+  <data name="CompPNLbl3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl3.Name" xml:space="preserve">
+    <value>CompPNLbl3</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl3.ZOrder" xml:space="preserve">
+    <value>94</value>
+  </data>
+  <data name="CompPNLbl4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNLbl4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 165</value>
+  </data>
+  <data name="CompPNLbl4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="CompPNLbl4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="CompPNLbl4.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="CompPNLbl4.Text" xml:space="preserve">
+    <value>(PN4)</value>
+  </data>
+  <data name="CompPNLbl4.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl4.Name" xml:space="preserve">
+    <value>CompPNLbl4</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl4.ZOrder" xml:space="preserve">
+    <value>93</value>
+  </data>
+  <data name="CompPNLbl5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNLbl5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 188</value>
+  </data>
+  <data name="CompPNLbl5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="CompPNLbl5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="CompPNLbl5.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="CompPNLbl5.Text" xml:space="preserve">
+    <value>(PN5)</value>
+  </data>
+  <data name="CompPNLbl5.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl5.Name" xml:space="preserve">
+    <value>CompPNLbl5</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl5.ZOrder" xml:space="preserve">
+    <value>92</value>
+  </data>
+  <data name="CompPNLbl6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNLbl6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 214</value>
+  </data>
+  <data name="CompPNLbl6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="CompPNLbl6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="CompPNLbl6.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="CompPNLbl6.Text" xml:space="preserve">
+    <value>(PN6)</value>
+  </data>
+  <data name="CompPNLbl6.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl6.Name" xml:space="preserve">
+    <value>CompPNLbl6</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl6.ZOrder" xml:space="preserve">
+    <value>91</value>
+  </data>
+  <data name="CompPNLbl7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNLbl7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 236</value>
+  </data>
+  <data name="CompPNLbl7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="CompPNLbl7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="CompPNLbl7.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="CompPNLbl7.Text" xml:space="preserve">
+    <value>(PN7)</value>
+  </data>
+  <data name="CompPNLbl7.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl7.Name" xml:space="preserve">
+    <value>CompPNLbl7</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl7.ZOrder" xml:space="preserve">
+    <value>90</value>
+  </data>
+  <data name="CompPNLbl8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNLbl8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 260</value>
+  </data>
+  <data name="CompPNLbl8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="CompPNLbl8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="CompPNLbl8.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="CompPNLbl8.Text" xml:space="preserve">
+    <value>(PN8)</value>
+  </data>
+  <data name="CompPNLbl8.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl8.Name" xml:space="preserve">
+    <value>CompPNLbl8</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl8.ZOrder" xml:space="preserve">
+    <value>89</value>
+  </data>
+  <data name="CompPNLbl9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNLbl9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 282</value>
+  </data>
+  <data name="CompPNLbl9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="CompPNLbl9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="CompPNLbl9.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="CompPNLbl9.Text" xml:space="preserve">
+    <value>(PN9)</value>
+  </data>
+  <data name="CompPNLbl9.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl9.Name" xml:space="preserve">
+    <value>CompPNLbl9</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl9.ZOrder" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="CompPNLbl10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNLbl10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 306</value>
+  </data>
+  <data name="CompPNLbl10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="CompPNLbl10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="CompPNLbl10.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="CompPNLbl10.Text" xml:space="preserve">
+    <value>(PN10)</value>
+  </data>
+  <data name="CompPNLbl10.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl10.Name" xml:space="preserve">
+    <value>CompPNLbl10</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl10.ZOrder" xml:space="preserve">
+    <value>87</value>
+  </data>
+  <data name="CompPNLbl11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNLbl11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 330</value>
+  </data>
+  <data name="CompPNLbl11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="CompPNLbl11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="CompPNLbl11.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="CompPNLbl11.Text" xml:space="preserve">
+    <value>(PN11)</value>
+  </data>
+  <data name="CompPNLbl11.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl11.Name" xml:space="preserve">
+    <value>CompPNLbl11</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl11.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl11.ZOrder" xml:space="preserve">
+    <value>86</value>
+  </data>
+  <data name="CompPNLbl12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNLbl12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 351</value>
+  </data>
+  <data name="CompPNLbl12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="CompPNLbl12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="CompPNLbl12.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="CompPNLbl12.Text" xml:space="preserve">
+    <value>(PN12)</value>
+  </data>
+  <data name="CompPNLbl12.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl12.Name" xml:space="preserve">
+    <value>CompPNLbl12</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl12.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl12.ZOrder" xml:space="preserve">
+    <value>85</value>
+  </data>
+  <data name="CompPNLbl13.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNLbl13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 376</value>
+  </data>
+  <data name="CompPNLbl13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="CompPNLbl13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="CompPNLbl13.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="CompPNLbl13.Text" xml:space="preserve">
+    <value>(PN13)</value>
+  </data>
+  <data name="CompPNLbl13.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl13.Name" xml:space="preserve">
+    <value>CompPNLbl13</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl13.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl13.ZOrder" xml:space="preserve">
+    <value>84</value>
+  </data>
+  <data name="CompPNLbl14.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNLbl14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 399</value>
+  </data>
+  <data name="CompPNLbl14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="CompPNLbl14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="CompPNLbl14.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="CompPNLbl14.Text" xml:space="preserve">
+    <value>(PN14)</value>
+  </data>
+  <data name="CompPNLbl14.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl14.Name" xml:space="preserve">
+    <value>CompPNLbl14</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl14.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl14.ZOrder" xml:space="preserve">
+    <value>83</value>
+  </data>
+  <data name="CompPNLbl15.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNLbl15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 422</value>
+  </data>
+  <data name="CompPNLbl15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="CompPNLbl15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="CompPNLbl15.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="CompPNLbl15.Text" xml:space="preserve">
+    <value>(PN15)</value>
+  </data>
+  <data name="CompPNLbl15.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl15.Name" xml:space="preserve">
+    <value>CompPNLbl15</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl15.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl15.ZOrder" xml:space="preserve">
+    <value>82</value>
+  </data>
+  <data name="CompPNChkBx1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNChkBx1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 95</value>
+  </data>
+  <data name="CompPNChkBx1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompPNChkBx1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="CompPNChkBx1.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="CompPNChkBx1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx1.Name" xml:space="preserve">
+    <value>CompPNChkBx1</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx1.ZOrder" xml:space="preserve">
+    <value>81</value>
+  </data>
+  <data name="CompPNChkBx2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNChkBx2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 118</value>
+  </data>
+  <data name="CompPNChkBx2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompPNChkBx2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="CompPNChkBx2.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="CompPNChkBx2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx2.Name" xml:space="preserve">
+    <value>CompPNChkBx2</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx2.ZOrder" xml:space="preserve">
+    <value>80</value>
+  </data>
+  <data name="CompPNChkBx3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNChkBx3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 143</value>
+  </data>
+  <data name="CompPNChkBx3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompPNChkBx3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="CompPNChkBx3.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="CompPNChkBx3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx3.Name" xml:space="preserve">
+    <value>CompPNChkBx3</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx3.ZOrder" xml:space="preserve">
+    <value>79</value>
+  </data>
+  <data name="CompPNChkBx4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNChkBx4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 165</value>
+  </data>
+  <data name="CompPNChkBx4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompPNChkBx4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="CompPNChkBx4.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="CompPNChkBx4.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx4.Name" xml:space="preserve">
+    <value>CompPNChkBx4</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx4.ZOrder" xml:space="preserve">
+    <value>78</value>
+  </data>
+  <data name="CompPNChkBx5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNChkBx5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 188</value>
+  </data>
+  <data name="CompPNChkBx5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompPNChkBx5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="CompPNChkBx5.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="CompPNChkBx5.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx5.Name" xml:space="preserve">
+    <value>CompPNChkBx5</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx5.ZOrder" xml:space="preserve">
+    <value>77</value>
+  </data>
+  <data name="CompPNChkBx6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNChkBx6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 214</value>
+  </data>
+  <data name="CompPNChkBx6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompPNChkBx6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="CompPNChkBx6.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="CompPNChkBx6.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx6.Name" xml:space="preserve">
+    <value>CompPNChkBx6</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx6.ZOrder" xml:space="preserve">
+    <value>76</value>
+  </data>
+  <data name="CompPNChkBx7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNChkBx7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 239</value>
+  </data>
+  <data name="CompPNChkBx7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompPNChkBx7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="CompPNChkBx7.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="CompPNChkBx7.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx7.Name" xml:space="preserve">
+    <value>CompPNChkBx7</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx7.ZOrder" xml:space="preserve">
+    <value>75</value>
+  </data>
+  <data name="CompPNChkBx8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNChkBx8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 261</value>
+  </data>
+  <data name="CompPNChkBx8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompPNChkBx8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="CompPNChkBx8.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="CompPNChkBx8.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx8.Name" xml:space="preserve">
+    <value>CompPNChkBx8</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx8.ZOrder" xml:space="preserve">
+    <value>74</value>
+  </data>
+  <data name="CompPNChkBx9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNChkBx9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 282</value>
+  </data>
+  <data name="CompPNChkBx9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompPNChkBx9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="CompPNChkBx9.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="CompPNChkBx9.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx9.Name" xml:space="preserve">
+    <value>CompPNChkBx9</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx9.ZOrder" xml:space="preserve">
+    <value>73</value>
+  </data>
+  <data name="CompPNChkBx10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNChkBx10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 307</value>
+  </data>
+  <data name="CompPNChkBx10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompPNChkBx10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="CompPNChkBx10.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="CompPNChkBx10.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx10.Name" xml:space="preserve">
+    <value>CompPNChkBx10</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx10.ZOrder" xml:space="preserve">
+    <value>72</value>
+  </data>
+  <data name="CompPNChkBx11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNChkBx11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 330</value>
+  </data>
+  <data name="CompPNChkBx11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompPNChkBx11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="CompPNChkBx11.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="CompPNChkBx11.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx11.Name" xml:space="preserve">
+    <value>CompPNChkBx11</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx11.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx11.ZOrder" xml:space="preserve">
+    <value>71</value>
+  </data>
+  <data name="CompPNChkBx12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNChkBx12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 352</value>
+  </data>
+  <data name="CompPNChkBx12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompPNChkBx12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="CompPNChkBx12.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="CompPNChkBx12.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx12.Name" xml:space="preserve">
+    <value>CompPNChkBx12</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx12.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx12.ZOrder" xml:space="preserve">
+    <value>70</value>
+  </data>
+  <data name="CompPNChkBx13.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNChkBx13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 376</value>
+  </data>
+  <data name="CompPNChkBx13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompPNChkBx13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="CompPNChkBx13.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="CompPNChkBx13.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx13.Name" xml:space="preserve">
+    <value>CompPNChkBx13</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx13.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx13.ZOrder" xml:space="preserve">
+    <value>69</value>
+  </data>
+  <data name="CompPNChkBx14.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNChkBx14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 399</value>
+  </data>
+  <data name="CompPNChkBx14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompPNChkBx14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="CompPNChkBx14.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="CompPNChkBx14.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx14.Name" xml:space="preserve">
+    <value>CompPNChkBx14</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx14.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx14.ZOrder" xml:space="preserve">
+    <value>68</value>
+  </data>
+  <data name="CompPNChkBx15.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNChkBx15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 421</value>
+  </data>
+  <data name="CompPNChkBx15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompPNChkBx15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="CompPNChkBx15.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="CompPNChkBx15.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx15.Name" xml:space="preserve">
+    <value>CompPNChkBx15</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx15.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx15.ZOrder" xml:space="preserve">
+    <value>67</value>
+  </data>
+  <data name="RwkSelectLbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RwkSelectLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 60</value>
+  </data>
+  <data name="RwkSelectLbl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="RwkSelectLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 13</value>
+  </data>
+  <data name="RwkSelectLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="RwkSelectLbl.Text" xml:space="preserve">
+    <value>Rework?</value>
+  </data>
+  <data name="&gt;&gt;RwkSelectLbl.Name" xml:space="preserve">
+    <value>RwkSelectLbl</value>
+  </data>
+  <data name="&gt;&gt;RwkSelectLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RwkSelectLbl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;RwkSelectLbl.ZOrder" xml:space="preserve">
+    <value>66</value>
+  </data>
+  <data name="CompScanBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 115</value>
+  </data>
+  <data name="CompScanBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompScanBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 20</value>
+  </data>
+  <data name="CompScanBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="CompScanBox2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox2.Name" xml:space="preserve">
+    <value>CompScanBox2</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox2.ZOrder" xml:space="preserve">
+    <value>65</value>
+  </data>
+  <data name="CompScanBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 140</value>
+  </data>
+  <data name="CompScanBox3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompScanBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 20</value>
+  </data>
+  <data name="CompScanBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="CompScanBox3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox3.Name" xml:space="preserve">
+    <value>CompScanBox3</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox3.ZOrder" xml:space="preserve">
+    <value>64</value>
+  </data>
+  <data name="CompScanBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 162</value>
+  </data>
+  <data name="CompScanBox4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompScanBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 20</value>
+  </data>
+  <data name="CompScanBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="CompScanBox4.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox4.Name" xml:space="preserve">
+    <value>CompScanBox4</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox4.ZOrder" xml:space="preserve">
+    <value>63</value>
+  </data>
+  <data name="CompScanBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 185</value>
+  </data>
+  <data name="CompScanBox5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompScanBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 20</value>
+  </data>
+  <data name="CompScanBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="CompScanBox5.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox5.Name" xml:space="preserve">
+    <value>CompScanBox5</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox5.ZOrder" xml:space="preserve">
+    <value>62</value>
+  </data>
+  <data name="CompScanBox6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 211</value>
+  </data>
+  <data name="CompScanBox6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompScanBox6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 20</value>
+  </data>
+  <data name="CompScanBox6.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="CompScanBox6.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox6.Name" xml:space="preserve">
+    <value>CompScanBox6</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox6.ZOrder" xml:space="preserve">
+    <value>61</value>
+  </data>
+  <data name="CompScanBox7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 234</value>
+  </data>
+  <data name="CompScanBox7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompScanBox7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 20</value>
+  </data>
+  <data name="CompScanBox7.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="CompScanBox7.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox7.Name" xml:space="preserve">
+    <value>CompScanBox7</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox7.ZOrder" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <data name="CompScanBox8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 257</value>
+  </data>
+  <data name="CompScanBox8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompScanBox8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 20</value>
+  </data>
+  <data name="CompScanBox8.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="CompScanBox8.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox8.Name" xml:space="preserve">
+    <value>CompScanBox8</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox8.ZOrder" xml:space="preserve">
+    <value>59</value>
+  </data>
+  <data name="CompScanBox9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 279</value>
+  </data>
+  <data name="CompScanBox9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompScanBox9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 20</value>
+  </data>
+  <data name="CompScanBox9.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="CompScanBox9.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox9.Name" xml:space="preserve">
+    <value>CompScanBox9</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox9.ZOrder" xml:space="preserve">
+    <value>58</value>
+  </data>
+  <data name="CompScanBox10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 304</value>
+  </data>
+  <data name="CompScanBox10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompScanBox10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 20</value>
+  </data>
+  <data name="CompScanBox10.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="CompScanBox10.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox10.Name" xml:space="preserve">
+    <value>CompScanBox10</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox10.ZOrder" xml:space="preserve">
+    <value>57</value>
+  </data>
+  <data name="CompScanBox11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 328</value>
+  </data>
+  <data name="CompScanBox11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompScanBox11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 20</value>
+  </data>
+  <data name="CompScanBox11.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="CompScanBox11.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox11.Name" xml:space="preserve">
+    <value>CompScanBox11</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox11.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox11.ZOrder" xml:space="preserve">
+    <value>56</value>
+  </data>
+  <data name="CompScanBox12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 349</value>
+  </data>
+  <data name="CompScanBox12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompScanBox12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 20</value>
+  </data>
+  <data name="CompScanBox12.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="CompScanBox12.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox12.Name" xml:space="preserve">
+    <value>CompScanBox12</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox12.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox12.ZOrder" xml:space="preserve">
+    <value>55</value>
+  </data>
+  <data name="CompScanBox13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 373</value>
+  </data>
+  <data name="CompScanBox13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompScanBox13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 20</value>
+  </data>
+  <data name="CompScanBox13.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="CompScanBox13.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox13.Name" xml:space="preserve">
+    <value>CompScanBox13</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox13.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox13.ZOrder" xml:space="preserve">
+    <value>54</value>
+  </data>
+  <data name="CompScanBox14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 396</value>
+  </data>
+  <data name="CompScanBox14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompScanBox14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 20</value>
+  </data>
+  <data name="CompScanBox14.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="CompScanBox14.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox14.Name" xml:space="preserve">
+    <value>CompScanBox14</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox14.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox14.ZOrder" xml:space="preserve">
+    <value>53</value>
+  </data>
+  <data name="CompScanBox15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 418</value>
+  </data>
+  <data name="CompScanBox15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompScanBox15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 20</value>
+  </data>
+  <data name="CompScanBox15.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="CompScanBox15.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox15.Name" xml:space="preserve">
+    <value>CompScanBox15</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox15.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox15.ZOrder" xml:space="preserve">
+    <value>52</value>
+  </data>
+  <data name="CompScanBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 92</value>
+  </data>
+  <data name="CompScanBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompScanBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 20</value>
+  </data>
+  <data name="CompScanBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="CompScanBox1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox1.Name" xml:space="preserve">
+    <value>CompScanBox1</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox1.ZOrder" xml:space="preserve">
+    <value>51</value>
+  </data>
+  <data name="SubmitRwkBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>379, 3</value>
+  </data>
+  <data name="SubmitRwkBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="SubmitRwkBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 42</value>
+  </data>
+  <data name="SubmitRwkBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="SubmitRwkBtn.Text" xml:space="preserve">
+    <value>Submit Rework</value>
+  </data>
+  <data name="&gt;&gt;SubmitRwkBtn.Name" xml:space="preserve">
+    <value>SubmitRwkBtn</value>
+  </data>
+  <data name="&gt;&gt;SubmitRwkBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SubmitRwkBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SubmitRwkBtn.ZOrder" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="RwkPgExitBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>889, 11</value>
+  </data>
+  <data name="RwkPgExitBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="RwkPgExitBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 23</value>
+  </data>
+  <data name="RwkPgExitBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="RwkPgExitBtn.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="&gt;&gt;RwkPgExitBtn.Name" xml:space="preserve">
+    <value>RwkPgExitBtn</value>
+  </data>
+  <data name="&gt;&gt;RwkPgExitBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RwkPgExitBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;RwkPgExitBtn.ZOrder" xml:space="preserve">
+    <value>49</value>
+  </data>
+  <data name="RwkPgReturnBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>812, 13</value>
+  </data>
+  <data name="RwkPgReturnBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="RwkPgReturnBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 23</value>
+  </data>
+  <data name="RwkPgReturnBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="RwkPgReturnBtn.Text" xml:space="preserve">
+    <value>Return</value>
+  </data>
+  <data name="&gt;&gt;RwkPgReturnBtn.Name" xml:space="preserve">
+    <value>RwkPgReturnBtn</value>
+  </data>
+  <data name="&gt;&gt;RwkPgReturnBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RwkPgReturnBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;RwkPgReturnBtn.ZOrder" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <metadata name="RwkSNScanBoxTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="CompPNLbl16.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNLbl16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>553, 91</value>
+  </data>
+  <data name="CompPNLbl16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="CompPNLbl16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="CompPNLbl16.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="CompPNLbl16.Text" xml:space="preserve">
+    <value>(PN16)</value>
+  </data>
+  <data name="CompPNLbl16.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl16.Name" xml:space="preserve">
+    <value>CompPNLbl16</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl16.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl16.ZOrder" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="CompPNLbl17.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNLbl17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>553, 114</value>
+  </data>
+  <data name="CompPNLbl17.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="CompPNLbl17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="CompPNLbl17.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="CompPNLbl17.Text" xml:space="preserve">
+    <value>(PN17)</value>
+  </data>
+  <data name="CompPNLbl17.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl17.Name" xml:space="preserve">
+    <value>CompPNLbl17</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl17.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl17.ZOrder" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="CompPNLbl18.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNLbl18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>553, 136</value>
+  </data>
+  <data name="CompPNLbl18.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="CompPNLbl18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="CompPNLbl18.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="CompPNLbl18.Text" xml:space="preserve">
+    <value>(PN18)</value>
+  </data>
+  <data name="CompPNLbl18.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl18.Name" xml:space="preserve">
+    <value>CompPNLbl18</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl18.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl18.ZOrder" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 19</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="CompPNLbl19.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNLbl19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>553, 159</value>
+  </data>
+  <data name="CompPNLbl19.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="CompPNLbl19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="CompPNLbl19.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="CompPNLbl19.Text" xml:space="preserve">
+    <value>(PN19)</value>
+  </data>
+  <data name="CompPNLbl19.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl19.Name" xml:space="preserve">
+    <value>CompPNLbl19</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl19.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl19.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="CompPNLbl20.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNLbl20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>553, 182</value>
+  </data>
+  <data name="CompPNLbl20.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="CompPNLbl20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="CompPNLbl20.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="CompPNLbl20.Text" xml:space="preserve">
+    <value>(PN20)</value>
+  </data>
+  <data name="CompPNLbl20.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl20.Name" xml:space="preserve">
+    <value>CompPNLbl20</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl20.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl20.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="CompPNLbl21.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNLbl21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>553, 205</value>
+  </data>
+  <data name="CompPNLbl21.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="CompPNLbl21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="CompPNLbl21.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="CompPNLbl21.Text" xml:space="preserve">
+    <value>(PN21)</value>
+  </data>
+  <data name="CompPNLbl21.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl21.Name" xml:space="preserve">
+    <value>CompPNLbl21</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl21.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl21.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="CompPNLbl22.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNLbl22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>553, 227</value>
+  </data>
+  <data name="CompPNLbl22.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="CompPNLbl22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="CompPNLbl22.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="CompPNLbl22.Text" xml:space="preserve">
+    <value>(PN22)</value>
+  </data>
+  <data name="CompPNLbl22.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl22.Name" xml:space="preserve">
+    <value>CompPNLbl22</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl22.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl22.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="CompPNLbl23.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNLbl23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>553, 250</value>
+  </data>
+  <data name="CompPNLbl23.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="CompPNLbl23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="CompPNLbl23.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="CompPNLbl23.Text" xml:space="preserve">
+    <value>(PN23)</value>
+  </data>
+  <data name="CompPNLbl23.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl23.Name" xml:space="preserve">
+    <value>CompPNLbl23</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl23.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl23.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="CompPNLbl24.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNLbl24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>553, 273</value>
+  </data>
+  <data name="CompPNLbl24.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="CompPNLbl24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="CompPNLbl24.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="CompPNLbl24.Text" xml:space="preserve">
+    <value>(PN24)</value>
+  </data>
+  <data name="CompPNLbl24.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl24.Name" xml:space="preserve">
+    <value>CompPNLbl24</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl24.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl24.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="CompPNLbl25.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNLbl25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>553, 296</value>
+  </data>
+  <data name="CompPNLbl25.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="CompPNLbl25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="CompPNLbl25.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="CompPNLbl25.Text" xml:space="preserve">
+    <value>(PN25)</value>
+  </data>
+  <data name="CompPNLbl25.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl25.Name" xml:space="preserve">
+    <value>CompPNLbl25</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl25.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl25.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="CompPNChkBx16.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNChkBx16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>709, 92</value>
+  </data>
+  <data name="CompPNChkBx16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompPNChkBx16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="CompPNChkBx16.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="CompPNChkBx16.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx16.Name" xml:space="preserve">
+    <value>CompPNChkBx16</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx16.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx16.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="CompPNChkBx17.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNChkBx17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>709, 115</value>
+  </data>
+  <data name="CompPNChkBx17.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompPNChkBx17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="CompPNChkBx17.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="CompPNChkBx17.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx17.Name" xml:space="preserve">
+    <value>CompPNChkBx17</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx17.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx17.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="CompPNChkBx18.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNChkBx18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>709, 137</value>
+  </data>
+  <data name="CompPNChkBx18.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompPNChkBx18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="CompPNChkBx18.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="CompPNChkBx18.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx18.Name" xml:space="preserve">
+    <value>CompPNChkBx18</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx18.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx18.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="CompPNChkBx19.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNChkBx19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>709, 160</value>
+  </data>
+  <data name="CompPNChkBx19.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompPNChkBx19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="CompPNChkBx19.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="CompPNChkBx19.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx19.Name" xml:space="preserve">
+    <value>CompPNChkBx19</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx19.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx19.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="CompPNChkBx20.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNChkBx20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>709, 183</value>
+  </data>
+  <data name="CompPNChkBx20.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompPNChkBx20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="CompPNChkBx20.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="CompPNChkBx20.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx20.Name" xml:space="preserve">
+    <value>CompPNChkBx20</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx20.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx20.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="CompPNChkBx21.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNChkBx21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>709, 205</value>
+  </data>
+  <data name="CompPNChkBx21.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompPNChkBx21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="CompPNChkBx21.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="CompPNChkBx21.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx21.Name" xml:space="preserve">
+    <value>CompPNChkBx21</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx21.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx21.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="CompPNChkBx22.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNChkBx22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>709, 228</value>
+  </data>
+  <data name="CompPNChkBx22.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompPNChkBx22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="CompPNChkBx22.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="CompPNChkBx22.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx22.Name" xml:space="preserve">
+    <value>CompPNChkBx22</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx22.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx22.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="CompPNChkBx23.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNChkBx23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>709, 251</value>
+  </data>
+  <data name="CompPNChkBx23.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompPNChkBx23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="CompPNChkBx23.TabIndex" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="CompPNChkBx23.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx23.Name" xml:space="preserve">
+    <value>CompPNChkBx23</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx23.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx23.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="CompPNChkBx24.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNChkBx24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>709, 274</value>
+  </data>
+  <data name="CompPNChkBx24.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompPNChkBx24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="CompPNChkBx24.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="CompPNChkBx24.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx24.Name" xml:space="preserve">
+    <value>CompPNChkBx24</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx24.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx24.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="CompPNChkBx25.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNChkBx25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>709, 297</value>
+  </data>
+  <data name="CompPNChkBx25.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompPNChkBx25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="CompPNChkBx25.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="CompPNChkBx25.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx25.Name" xml:space="preserve">
+    <value>CompPNChkBx25</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx25.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx25.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="CompScanBox16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>743, 88</value>
+  </data>
+  <data name="CompScanBox16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompScanBox16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 20</value>
+  </data>
+  <data name="CompScanBox16.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="CompScanBox16.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox16.Name" xml:space="preserve">
+    <value>CompScanBox16</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox16.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox16.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="CompScanBox17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>743, 111</value>
+  </data>
+  <data name="CompScanBox17.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompScanBox17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 20</value>
+  </data>
+  <data name="CompScanBox17.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="CompScanBox17.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox17.Name" xml:space="preserve">
+    <value>CompScanBox17</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox17.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox17.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="CompScanBox18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>743, 133</value>
+  </data>
+  <data name="CompScanBox18.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompScanBox18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 20</value>
+  </data>
+  <data name="CompScanBox18.TabIndex" type="System.Int32, mscorlib">
+    <value>76</value>
+  </data>
+  <data name="CompScanBox18.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox18.Name" xml:space="preserve">
+    <value>CompScanBox18</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox18.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox18.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="CompScanBox19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>743, 157</value>
+  </data>
+  <data name="CompScanBox19.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompScanBox19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 20</value>
+  </data>
+  <data name="CompScanBox19.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="CompScanBox19.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox19.Name" xml:space="preserve">
+    <value>CompScanBox19</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox19.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox19.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="CompScanBox20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>743, 179</value>
+  </data>
+  <data name="CompScanBox20.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompScanBox20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 20</value>
+  </data>
+  <data name="CompScanBox20.TabIndex" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="CompScanBox20.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox20.Name" xml:space="preserve">
+    <value>CompScanBox20</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox20.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox20.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="CompScanBox21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>743, 201</value>
+  </data>
+  <data name="CompScanBox21.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompScanBox21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 20</value>
+  </data>
+  <data name="CompScanBox21.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="CompScanBox21.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox21.Name" xml:space="preserve">
+    <value>CompScanBox21</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox21.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox21.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="CompScanBox22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>743, 225</value>
+  </data>
+  <data name="CompScanBox22.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompScanBox22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 20</value>
+  </data>
+  <data name="CompScanBox22.TabIndex" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="CompScanBox22.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox22.Name" xml:space="preserve">
+    <value>CompScanBox22</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox22.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox22.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="CompScanBox23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>743, 251</value>
+  </data>
+  <data name="CompScanBox23.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompScanBox23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 20</value>
+  </data>
+  <data name="CompScanBox23.TabIndex" type="System.Int32, mscorlib">
+    <value>81</value>
+  </data>
+  <data name="CompScanBox23.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox23.Name" xml:space="preserve">
+    <value>CompScanBox23</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox23.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox23.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="CompScanBox24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>743, 273</value>
+  </data>
+  <data name="CompScanBox24.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompScanBox24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 20</value>
+  </data>
+  <data name="CompScanBox24.TabIndex" type="System.Int32, mscorlib">
+    <value>82</value>
+  </data>
+  <data name="CompScanBox24.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox24.Name" xml:space="preserve">
+    <value>CompScanBox24</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox24.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox24.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="CompScanBox25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>743, 296</value>
+  </data>
+  <data name="CompScanBox25.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompScanBox25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 20</value>
+  </data>
+  <data name="CompScanBox25.TabIndex" type="System.Int32, mscorlib">
+    <value>83</value>
+  </data>
+  <data name="CompScanBox25.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox25.Name" xml:space="preserve">
+    <value>CompScanBox25</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox25.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox25.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="CompPNLbl26.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNLbl26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>553, 321</value>
+  </data>
+  <data name="CompPNLbl26.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="CompPNLbl26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="CompPNLbl26.TabIndex" type="System.Int32, mscorlib">
+    <value>84</value>
+  </data>
+  <data name="CompPNLbl26.Text" xml:space="preserve">
+    <value>(PN26)</value>
+  </data>
+  <data name="CompPNLbl26.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl26.Name" xml:space="preserve">
+    <value>CompPNLbl26</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl26.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl26.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl26.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="CompPNLbl27.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNLbl27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>553, 345</value>
+  </data>
+  <data name="CompPNLbl27.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="CompPNLbl27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="CompPNLbl27.TabIndex" type="System.Int32, mscorlib">
+    <value>85</value>
+  </data>
+  <data name="CompPNLbl27.Text" xml:space="preserve">
+    <value>(PN27)</value>
+  </data>
+  <data name="CompPNLbl27.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl27.Name" xml:space="preserve">
+    <value>CompPNLbl27</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl27.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl27.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl27.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="CompPNLbl28.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNLbl28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>553, 370</value>
+  </data>
+  <data name="CompPNLbl28.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="CompPNLbl28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="CompPNLbl28.TabIndex" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="CompPNLbl28.Text" xml:space="preserve">
+    <value>(PN28)</value>
+  </data>
+  <data name="CompPNLbl28.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl28.Name" xml:space="preserve">
+    <value>CompPNLbl28</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl28.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl28.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl28.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="CompPNLbl29.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNLbl29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>553, 392</value>
+  </data>
+  <data name="CompPNLbl29.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="CompPNLbl29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="CompPNLbl29.TabIndex" type="System.Int32, mscorlib">
+    <value>87</value>
+  </data>
+  <data name="CompPNLbl29.Text" xml:space="preserve">
+    <value>(PN29)</value>
+  </data>
+  <data name="CompPNLbl29.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl29.Name" xml:space="preserve">
+    <value>CompPNLbl29</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl29.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl29.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl29.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="CompPNLbl30.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNLbl30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>553, 415</value>
+  </data>
+  <data name="CompPNLbl30.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="CompPNLbl30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="CompPNLbl30.TabIndex" type="System.Int32, mscorlib">
+    <value>88</value>
+  </data>
+  <data name="CompPNLbl30.Text" xml:space="preserve">
+    <value>(PN30)</value>
+  </data>
+  <data name="CompPNLbl30.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl30.Name" xml:space="preserve">
+    <value>CompPNLbl30</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl30.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl30.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNLbl30.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="CompPNChkBx26.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNChkBx26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>709, 320</value>
+  </data>
+  <data name="CompPNChkBx26.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompPNChkBx26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="CompPNChkBx26.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="CompPNChkBx26.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx26.Name" xml:space="preserve">
+    <value>CompPNChkBx26</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx26.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx26.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx26.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="CompPNChkBx27.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNChkBx27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>709, 342</value>
+  </data>
+  <data name="CompPNChkBx27.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompPNChkBx27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="CompPNChkBx27.TabIndex" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="CompPNChkBx27.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx27.Name" xml:space="preserve">
+    <value>CompPNChkBx27</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx27.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx27.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx27.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="CompPNChkBx28.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNChkBx28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>709, 366</value>
+  </data>
+  <data name="CompPNChkBx28.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompPNChkBx28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="CompPNChkBx28.TabIndex" type="System.Int32, mscorlib">
+    <value>91</value>
+  </data>
+  <data name="CompPNChkBx28.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx28.Name" xml:space="preserve">
+    <value>CompPNChkBx28</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx28.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx28.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx28.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="CompPNChkBx29.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNChkBx29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>709, 388</value>
+  </data>
+  <data name="CompPNChkBx29.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompPNChkBx29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="CompPNChkBx29.TabIndex" type="System.Int32, mscorlib">
+    <value>92</value>
+  </data>
+  <data name="CompPNChkBx29.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx29.Name" xml:space="preserve">
+    <value>CompPNChkBx29</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx29.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx29.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx29.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="CompPNChkBx30.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompPNChkBx30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>709, 412</value>
+  </data>
+  <data name="CompPNChkBx30.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompPNChkBx30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="CompPNChkBx30.TabIndex" type="System.Int32, mscorlib">
+    <value>93</value>
+  </data>
+  <data name="CompPNChkBx30.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx30.Name" xml:space="preserve">
+    <value>CompPNChkBx30</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx30.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx30.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompPNChkBx30.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="CompScanBox26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>743, 318</value>
+  </data>
+  <data name="CompScanBox26.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompScanBox26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 20</value>
+  </data>
+  <data name="CompScanBox26.TabIndex" type="System.Int32, mscorlib">
+    <value>94</value>
+  </data>
+  <data name="CompScanBox26.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox26.Name" xml:space="preserve">
+    <value>CompScanBox26</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox26.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox26.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox26.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="CompScanBox27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>743, 340</value>
+  </data>
+  <data name="CompScanBox27.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompScanBox27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 20</value>
+  </data>
+  <data name="CompScanBox27.TabIndex" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="CompScanBox27.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox27.Name" xml:space="preserve">
+    <value>CompScanBox27</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox27.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox27.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox27.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="CompScanBox28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>743, 363</value>
+  </data>
+  <data name="CompScanBox28.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompScanBox28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 20</value>
+  </data>
+  <data name="CompScanBox28.TabIndex" type="System.Int32, mscorlib">
+    <value>96</value>
+  </data>
+  <data name="CompScanBox28.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox28.Name" xml:space="preserve">
+    <value>CompScanBox28</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox28.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox28.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox28.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="CompScanBox29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>743, 385</value>
+  </data>
+  <data name="CompScanBox29.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompScanBox29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 20</value>
+  </data>
+  <data name="CompScanBox29.TabIndex" type="System.Int32, mscorlib">
+    <value>97</value>
+  </data>
+  <data name="CompScanBox29.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox29.Name" xml:space="preserve">
+    <value>CompScanBox29</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox29.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox29.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox29.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="CompScanBox30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>743, 407</value>
+  </data>
+  <data name="CompScanBox30.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CompScanBox30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 20</value>
+  </data>
+  <data name="CompScanBox30.TabIndex" type="System.Int32, mscorlib">
+    <value>98</value>
+  </data>
+  <data name="CompScanBox30.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox30.Name" xml:space="preserve">
+    <value>CompScanBox30</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox30.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox30.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompScanBox30.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ComponentPNTitleLbl2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ComponentPNTitleLbl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>552, 60</value>
+  </data>
+  <data name="ComponentPNTitleLbl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 30</value>
+  </data>
+  <data name="ComponentPNTitleLbl2.TabIndex" type="System.Int32, mscorlib">
+    <value>99</value>
+  </data>
+  <data name="ComponentPNTitleLbl2.Text" xml:space="preserve">
+    <value>Component PN</value>
+  </data>
+  <data name="&gt;&gt;ComponentPNTitleLbl2.Name" xml:space="preserve">
+    <value>ComponentPNTitleLbl2</value>
+  </data>
+  <data name="&gt;&gt;ComponentPNTitleLbl2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ComponentPNTitleLbl2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ComponentPNTitleLbl2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="RwkSelectLbl2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RwkSelectLbl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>695, 60</value>
+  </data>
+  <data name="RwkSelectLbl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 13</value>
+  </data>
+  <data name="RwkSelectLbl2.TabIndex" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="RwkSelectLbl2.Text" xml:space="preserve">
+    <value>Rework?</value>
+  </data>
+  <data name="&gt;&gt;RwkSelectLbl2.Name" xml:space="preserve">
+    <value>RwkSelectLbl2</value>
+  </data>
+  <data name="&gt;&gt;RwkSelectLbl2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RwkSelectLbl2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;RwkSelectLbl2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>986, 547</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>ReworkPage</value>
+  </data>
+  <data name="&gt;&gt;RwkSNScanBoxTimer.Name" xml:space="preserve">
+    <value>RwkSNScanBoxTimer</value>
+  </data>
+  <data name="&gt;&gt;RwkSNScanBoxTimer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ReworkPage</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
